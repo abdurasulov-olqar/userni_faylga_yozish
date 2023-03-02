@@ -2,7 +2,7 @@ import requests
 import json
 
 users = []
-for i in range(1):
+for i in range(100):
 
     response = requests.get('https://randomuser.me/api/')
 
